@@ -1,0 +1,134 @@
+body {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.header > h1 .about_me {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-weight:bolder;
+}
+h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	color:#03a9f4;
+}
+h2 {
+	color:#5bca80;
+	text-align: center;
+}
+h3, h4, h5 {
+	color:#4caf50;
+}
+a {
+	text-decoration: none;
+}
+button {
+	background-color: #4caf50;
+	transition:all 2s;
+	width:100px;
+	height:50px;
+	border-radius: 5px;
+	padding:10px;
+	border: none;
+}
+button:hover {
+	background-color: #55da69;
+	color:#fff;
+	width:150px;
+}
+.about_me > p{
+	display:flex;
+	padding:20px 30px;
+	justify-content: center;
+	align-items: center;
+	color:#bb5951;
+}
+
+.about_h2 .about_h3{
+	display:flex;
+	display-direction:column;
+	padding:20px 30px;
+	justify-content: center;
+	align-self: center;
+}
+.gallery {
+	display:-ms-grid;
+	display:grid;
+	grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+	/*Add gaps between cols & rows */
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+.gallery img {
+	padding: 30px;
+	width:100%;
+}
+.gallery > img {
+	transition: all .5s;
+	transition-timing-function: ease-out;
+}
+.gallery > img:hover {
+	/*transform:rotate(10deg);*/
+	transform:translate(10px 80px);
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 25px, inset rgba(0, 0, 0, 0.15) 0px -30px 80px;
+
+}
+.description {
+	display:flex;
+	flex-direction: column;
+	padding:20px 60px;
+	color: #ff5722;
+	font-size:16px;
+}
+.title_port {
+	font-size: 30px;
+	font-family: sans-serif;
+	transition:all 2s;
+}
+.title_port:hover {
+	font-size:32px;
+}
+.resume {
+	margin-top: 20px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: sans-serif;
+	transition:all 2s;
+}
+.resume:hover {
+	font-size: 22px;
+}
+.footer {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	font-size: 28px;
+	height: 300px;
+	background-color: #bb5951;
+}
+
+ .contact_me {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+	 transition:all 2s;
+	 font-size: 20px;
+}
+.contact_me:hover {
+  color:#4b8e4e;
+	font-size: 22px;
+}
+#copy {
+	display: flex;
+	align-content: space-between;
+	transition:all 2s;
+	transition-timing-function: ease-out;
+	font-size: 18px;
+}
+#copy:hover {
+	color: #009688;
+	font-size: 24px;
+}
