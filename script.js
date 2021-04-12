@@ -7,8 +7,8 @@
    const proj_url6 = "https://redditapp-proj.netlify.app";
    const proj_url7 = "https://nasa-apod-proj.netlify.app";
    const proj_url8 = "https://questioner-app.netlify.app";
-   const proj_url9 = "https://simple-port-folio.netlify.app";
-   const proj_url10 = "https://simple-port-folio.netlify.app";
+   const proj_url9 = "https://cryptonator-api-proj.netlify.app";
+   const proj_url10 = "https://image-gallery-portfolio.netlify.app";
 
    //Define const for querySelectors
    const proj1 = document.querySelector('.project1');
@@ -32,13 +32,13 @@
 
   function git_hub_link() {
     const git_Hub = document.querySelector('.git_hub');
-    git_Hub.src = "https://www.github.com";
+    git_Hub.src = "https://www.github.com/sonu-cyber/";
     window.open(git_Hub.src);
     console.log('git_Hub.src', git_Hub.src);
   }
   function linked_in_link(){
     const linked_In = document.querySelector('.linked_in');
-    linked_In.src = "https://www.linkedin.com";
+    linked_In.src = "https://www.linkedin.com/in/gayathriraghuram/";
     window.open(linked_In.src);
   }
 
@@ -101,4 +101,4 @@
     proj10.src = proj_url10;
     console.log('proj10.src',proj10.src);
     window.open(proj10.src);
-}
+  }
